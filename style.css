@@ -1,13 +1,23 @@
+/* #profile{
+    display: flex;
+    padding:2rem ;
+    margin: 2rem;
+justify-content: right; */
+/* } */
+
+
+
+
 #home{
     display: flex;
     padding:2rem ;
     margin: 2rem;
 justify-content: center;
 }
-#h{
+#color{
 color: orange;
 }
-#a{
+hr{
     color: gray;
 }
 #img{
@@ -15,7 +25,7 @@ color: orange;
     height: 90vh;
     width: 100%;
 }
-#p{
+#programs{
     color: orange;
 text-align: center;
 }
@@ -24,7 +34,7 @@ text-align: center;
     justify-content: center;
     margin: 3rem;
 }
-#o{
+#values{
     color: black;
     text-align: center;
     
@@ -37,17 +47,14 @@ text-align: center;
     margin-bottom: 3rem;
 
 }
-#T{
+#Team{
     color: orange;
     text-align: center;
 
 }
 #team{
-    display :flex ;
-    justify-content: center;
-    margin-top: 2rem;
-    align-items: center;
-    margin-bottom: 3rem;
+    display: flex;
+
  
 }
 #button{
@@ -55,5 +62,11 @@ display: flex;
 text-align: center;
 }
 #view{
-
+display: flex;
+align-content: center;
+}
+#partners{
+    color: black;
+    text-align: center;
+    
 }
