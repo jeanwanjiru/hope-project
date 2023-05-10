@@ -1,0 +1,59 @@
+#home{
+    display: flex;
+    padding:2rem ;
+    margin: 2rem;
+justify-content: center;
+}
+#h{
+color: orange;
+}
+#a{
+    color: gray;
+}
+#img{
+    display: flex;
+    height: 90vh;
+    width: 100%;
+}
+#p{
+    color: orange;
+text-align: center;
+}
+#heroin{
+    display :flex ;
+    justify-content: center;
+    margin: 3rem;
+}
+#o{
+    color: black;
+    text-align: center;
+    
+}
+#details{
+    display :flex ;
+    justify-content: center;
+    margin: 3rem;  
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+
+}
+#T{
+    color: orange;
+    text-align: center;
+
+}
+#team{
+    display :flex ;
+    justify-content: center;
+    margin-top: 2rem;
+    align-items: center;
+    margin-bottom: 3rem;
+ 
+}
+#button{
+display: flex;
+text-align: center;
+}
+#view{
+
+}
