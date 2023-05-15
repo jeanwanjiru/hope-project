@@ -1,12 +1,37 @@
-
-
-#home{
-    display: flex;
-    padding:2rem ;
-    margin: 2rem;
-justify-content: center;
+/* *{ padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+} */
+.profile{
+    width: 10%;
+    height: 10%; 
+    float: right; 
+    border-radius:50%;
+    object-fit: cover;
 }
-#color{
+nav{
+    display: flex;
+    justify-content: center;
+   padding:1rem;
+  align-items: center;
+  /* float: right; */
+   
+  
+}
+ul{
+    display: flex;
+    padding: 0.5rem;
+
+}
+li{
+    padding: 0.5rem;
+    margin: 0.5rem ;
+list-style: none;
+}
+span{
+    color: yellow;
+}
+Home{
 color: orange;
 }
 hr{
@@ -21,14 +46,16 @@ hr{
     color: orange;
 text-align: center;
 }
-#heroin{
+#heros{
     display :flex ;
     justify-content: center;
     margin: 3rem;
 }
 #values{
+   
     color: black;
     text-align: center;
+    
     
 }
 #details{
@@ -37,6 +64,7 @@ text-align: center;
     margin: 3rem;  
     margin-top: 2rem;
     margin-bottom: 3rem;
+    
 
 }
 #Team{
@@ -64,9 +92,27 @@ text-align: center;
     text-align: center;
     
 }
+
 #handles{
     display: flex;
     padding:0.2rem ;
     margin: 2rem;
 justify-content:right;
+}
+.program{
+    background-color: #f4ebff;
+    border-radius: 10%;
+}
+#value{
+    display: flex;
+    justify-content: center;
+}
+.creativity{
+    background-color: #fdfbf3;
+}
+.partner{
+    background-color: #fdfbf3;
+}
+.hope{
+   background-color: #fdfbf3; 
 }
