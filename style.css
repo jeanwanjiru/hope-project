@@ -14,7 +14,7 @@ nav{
     justify-content: center;
    padding:1rem;
   align-items: center;
-  /* float: right; */
+ 
    
   
 }
@@ -41,6 +41,7 @@ hr{
     display: flex;
     height: 90vh;
     width: 100%;
+  
 }
 #programs{
     color: orange;
@@ -74,13 +75,13 @@ text-align: center;
 }
 #team{
     display: flex;
-    margin: 0.3rem;
+   margin: 0.2rem;
     align-content: center;
+    /* float: right; */
 
  
 }
 #button{
-
 text-align: center;
 }
 #view{
@@ -95,9 +96,11 @@ text-align: center;
 
 #handles{
     display: flex;
-    padding:0.2rem ;
-    margin: 2rem;
-justify-content:right;
+    padding:7rrem ;
+    color: #fdfbf3;
+    float: right;
+
+
 }
 .program{
     background-color: #f4ebff;
@@ -112,7 +115,16 @@ justify-content:right;
 }
 .partner{
     background-color: #fdfbf3;
+
 }
 .hope{
-   background-color: #fdfbf3; 
+    background-color: #fdfbf3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+#topics{
+display: flex;
+float: right;
 }
